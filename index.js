@@ -1,5 +1,6 @@
-const testVar = {}
+const main = document.getElementsByTagName('main')[0];
+main.remove();
 
-function testFunc() {
-    return "hi"
-}
+const newHeader = document.createElement('h1');
+newHeader.id = "victory"
+newHeader.textContent = "Ndili is the champion"
